@@ -118,7 +118,7 @@ main{
 }
 .skill{
     background-color: azure;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.281);
     border-radius: 5px;
     padding: 2px 8px;
 
@@ -134,4 +134,28 @@ main{
 }
 .skill-disc{
    justify-content: center;
+}
+
+/* resume style */
+.resume-container{
+    margin:40px 180px ;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.resume-title{
+    margin-bottom: 20px;
+}
+.resume-disc-title{
+    margin-bottom: 5px;
+}
+.univarsity{
+    font-size: 15px;
+    font-weight: bold;
+}
+.resume-container p{
+    font-size: 12px;
+}
+.education-disc{
+   margin-bottom: 25px;
 }
