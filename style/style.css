@@ -159,3 +159,41 @@ main{
 .education-disc{
    margin-bottom: 25px;
 }
+.resume-btn{
+    text-align: center;
+}
+
+/* contact me  */
+.contact-me{
+    background-color: rgba(255, 228, 196, 0.533);
+    display: flex;
+    justify-content: space-between;
+    margin:40px 180px;
+    padding: 5px 15px;
+}
+.contact-side{
+    text-transform: capitalize;
+    width: 50%;
+}
+.contact-side > p{
+    margin: 5px 1px;
+}
+.contact-side i{
+    margin-right:15px; ;
+}
+.form-side{
+  
+}
+.form-side input{
+    margin: 15px 0px;
+    display: block;
+    width: 400px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+.form-side button{
+    display: block;
+  margin: 0 auto;
+}
